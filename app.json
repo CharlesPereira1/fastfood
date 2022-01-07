@@ -1,0 +1,12 @@
+{
+  "name": "fastfood",
+  "displayName": "fastfood",
+  "expo": {
+    "name": "fastfood",
+    "slug": "fastfood",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
