@@ -5,16 +5,12 @@ import { Text, TextInputProps, TextInput } from 'react-native';
 import { Container } from './styles';
 
 interface InputProps extends TextInputProps  {
-  children: ReactNode;
 }
 
-function Input({ children }: InputProps) {
+export const Input:React.FC:<InputProps> = ({ ...rest }) => {
   return (
-    <Container>
+    <Container {...rest}>
       <Text>Input</Text>
-      {children}
     </Container>
   );
 };
-
-export default Input;
