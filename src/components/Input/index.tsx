@@ -1,10 +1,10 @@
 import { ReactNode } from 'react';
 
-import { Text } from 'react-native';
+import { Text, TextInputProps, TextInput } from 'react-native';
 
 import { Container } from './styles';
 
-interface InputProps {
+interface InputProps extends TextInputProps  {
   children: ReactNode;
 }
 
