@@ -1,5 +1,5 @@
 import React from 'react';
-import {} from 'react-native';
+import { StatusBar } from 'react-native';
 import { ThemeProvider } from 'styled-components/native';
 import AppLoading from 'expo-app-loading';
 import { useFonts, DMSans_400Regular } from '@expo-google-fonts/dm-sans';
@@ -20,6 +20,11 @@ const App: React.FC = () => {
 
   return (
     <ThemeProvider theme={theme}>
+      <StatusBar
+        barStyle={'light-content'}
+        translucent
+        backgroundColor={'transparent'}
+      />
       <SignIn />
     </ThemeProvider>
   );
