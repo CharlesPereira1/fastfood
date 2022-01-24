@@ -1,10 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import {} from 'react-native';
+import { ThemeProvider } from 'styled-components/native';
 import AppLoading from 'expo-app-loading';
 import { useFonts, DMSans_400Regular } from '@expo-google-fonts/dm-sans';
 import { DMSerifDisplay_400Regular } from '@expo-google-fonts/dm-serif-display';
 
 import SignIn from '@fastfood/screens/SignIn';
+import theme from '@fastfood/theme';
 
 const App: React.FC = () => {
   const [fontsLoaded] = useFonts({
@@ -16,7 +18,11 @@ const App: React.FC = () => {
     return <AppLoading />;
   }
 
-  return <SignIn />;
+  return (
+    <ThemeProvider theme={theme}>
+      <SignIn />
+    </ThemeProvider>
+  );
 };
 
 export default App;
