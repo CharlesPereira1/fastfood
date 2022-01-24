@@ -1,18 +1,12 @@
-import { ReactNode } from 'react';
-
+import React from 'react';
 import { Text } from 'react-native';
 
 import { Container } from './styles';
 
-interface SignInProps {
-  children: ReactNode;
-}
-
-function SignIn({ children }: SignInProps) {
+const SignIn: React.FC = () => {
   return (
     <Container>
-      <Text>SignIn</Text>
-      {children}
+      <Text>Sigin</Text>
     </Container>
   );
 };

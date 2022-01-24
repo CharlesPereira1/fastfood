@@ -1,12 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import SignIn from '@fastfood/screens/SignIn';
 
 const App: React.FC = () => {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
-  );
+  return <SignIn />;
 };
 
 const styles = StyleSheet.create({
