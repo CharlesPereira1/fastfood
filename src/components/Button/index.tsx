@@ -1,9 +1,23 @@
 import React from 'react';
+import { RectButtonProps } from 'react-native-gesture-handler';
 
-import { Container } from './styles';
+import { Container, Loading, Title, TypeProps } from './styles';
 
-const Button: React.FC = () => {
-  return <Container />;
+type Props = RectButtonProps & {
+  title: string;
+  type?: TypeProps;
+  isLoading?: boolean;
 };
 
-export default Button;
+export const Button: React.FC<Props> = ({
+  title,
+  type = 'primary',
+  isLoading = false,
+  ...rest
+}) => {
+  return (
+    <Container type={type} enabled={!isLoading} {...rest}>
+      {isLoading ? <Loading /> : <Title>{title}</Title>}
+    </Container>
+  );
+};
