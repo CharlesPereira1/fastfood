@@ -4,7 +4,9 @@ import { KeyboardAvoidingView, Platform } from 'react-native';
 import { Input } from '@fastfood/components/Input';
 import { Button } from '@fastfood/components/Button';
 
-import { Container, Content, Title } from './styles';
+import brandImg from '@fastfood/assets/brand.png';
+
+import { Brand, Container, Content, Title } from './styles';
 
 const SignIn: React.FC = () => {
   return (
@@ -13,6 +15,8 @@ const SignIn: React.FC = () => {
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
       >
         <Content>
+          <Brand source={brandImg} />
+
           <Title>Login</Title>
 
           <Input
