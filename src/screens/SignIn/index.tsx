@@ -6,7 +6,14 @@ import { Button } from '@fastfood/components/Button';
 
 import brandImg from '@fastfood/assets/brand.png';
 
-import { Brand, Container, Content, Title } from './styles';
+import {
+  Brand,
+  Container,
+  Content,
+  Title,
+  ForgotPasswordButton,
+  ForgotPasswordLabel,
+} from './styles';
 
 const SignIn: React.FC = () => {
   return (
@@ -26,6 +33,10 @@ const SignIn: React.FC = () => {
             autoCapitalize="none"
           />
           <Input placeholder="Senha" type="secondary" secureTextEntry />
+
+          <ForgotPasswordButton>
+            <ForgotPasswordLabel>Esqueci minha senha</ForgotPasswordLabel>
+          </ForgotPasswordButton>
 
           <Button title="Entrar" type="secondary" />
         </Content>
