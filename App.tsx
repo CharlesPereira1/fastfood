@@ -5,6 +5,8 @@ import AppLoading from 'expo-app-loading';
 import { useFonts, DMSans_400Regular } from '@expo-google-fonts/dm-sans';
 import { DMSerifDisplay_400Regular } from '@expo-google-fonts/dm-serif-display';
 
+import { AuthProvider } from '@fastfood/hooks/auth';
+
 import SignIn from '@fastfood/screens/SignIn';
 import theme from '@fastfood/theme';
 
@@ -25,7 +27,9 @@ const App: React.FC = () => {
         translucent
         backgroundColor={'transparent'}
       />
-      <SignIn />
+      <AuthProvider>
+        <SignIn />
+      </AuthProvider>
     </ThemeProvider>
   );
 };
