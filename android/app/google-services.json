@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "514664174463",
+    "project_id": "fastfood-7003d",
+    "storage_bucket": "fastfood-7003d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514664174463:android:a011df7b77dde19021404a",
+        "android_client_info": {
+          "package_name": "com.fastfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514664174463-47tgqe1iqvc49he065a46aiecb747c66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3kPxq00xP8KKi5gAINnmHVQobG4jA8_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514664174463-47tgqe1iqvc49he065a46aiecb747c66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514664174463:android:b7b5f8db3d2ca3e821404a",
+        "android_client_info": {
+          "package_name": "com.fastfood1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514664174463-casp1k4kepnbdkhavdfg3tokvjkune6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fastfood1",
+            "certificate_hash": "9df0d4086e53c7e707b8761dd30fa79bf7caf628"
+          }
+        },
+        {
+          "client_id": "514664174463-47tgqe1iqvc49he065a46aiecb747c66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3kPxq00xP8KKi5gAINnmHVQobG4jA8_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514664174463-47tgqe1iqvc49he065a46aiecb747c66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514664174463:android:40a26df56fcb0e2921404a",
+        "android_client_info": {
+          "package_name": "com.foodfast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514664174463-lagvgjeskiumi52jr16is9cddeu8hsot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodfast",
+            "certificate_hash": "9df0d4086e53c7e707b8761dd30fa79bf7caf628"
+          }
+        },
+        {
+          "client_id": "514664174463-47tgqe1iqvc49he065a46aiecb747c66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3kPxq00xP8KKi5gAINnmHVQobG4jA8_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514664174463-47tgqe1iqvc49he065a46aiecb747c66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

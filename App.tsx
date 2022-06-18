@@ -1,16 +1,14 @@
-import React from 'react';
-import { StatusBar } from 'react-native';
-import { ThemeProvider } from 'styled-components/native';
-import AppLoading from 'expo-app-loading';
-import { useFonts, DMSans_400Regular } from '@expo-google-fonts/dm-sans';
-import { DMSerifDisplay_400Regular } from '@expo-google-fonts/dm-serif-display';
+import React from "react";
+import { Text } from "react-native";
+import { StatusBar } from "expo-status-bar";
+import AppLoading from "expo-app-loading";
+import { useFonts, DMSans_400Regular } from "@expo-google-fonts/dm-sans";
+import { DMSerifDisplay_400Regular } from "@expo-google-fonts/dm-serif-display";
+import { ThemeProvider } from "styled-components/native";
 
-import { AuthProvider } from '@fastfood/hooks/auth';
+import theme from "./src/theme";
 
-import SignIn from '@fastfood/screens/SignIn';
-import theme from '@fastfood/theme';
-
-const App: React.FC = () => {
+export const App = () => {
   const [fontsLoaded] = useFonts({
     DMSans_400Regular,
     DMSerifDisplay_400Regular,
@@ -22,16 +20,22 @@ const App: React.FC = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <StatusBar
-        barStyle={'light-content'}
-        translucent
-        backgroundColor={'transparent'}
-      />
-      <AuthProvider>
-        <SignIn />
-      </AuthProvider>
+      <Text>App</Text>
+      <Text>App</Text>
+      <Text>App</Text>
+      <Text>App</Text>
+      <Text>App</Text>
+      <Text>App</Text>
+      <Text>App</Text>
+      <Text>App</Text>
+      <Text>App</Text>
+      <Text>App</Text>
+      <Text>App</Text>
+      <Text>App</Text>
+      <Text>App</Text>
+      <Text>App</Text>
+      <Text>App</Text>
+      <Text>App</Text>
     </ThemeProvider>
   );
 };
-
-export default App;
